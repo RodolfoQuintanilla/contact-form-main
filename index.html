@@ -29,15 +29,17 @@
     <h1>Contact Us</h1>
 
     <div class="names">
-      <div>
+
+      <div class="name">
         <label>First Name <span>*</span></label>
         <br>
-        <input type="text">
+        <input id="firstName" type="text">
       </div>
-      <div>
+
+      <div class="name">
         <label> Last Name <span>*</span></label>
         <br>
-        <input type="text">
+        <input id="lastName" type="text">
       </div>
     </div>
 
@@ -45,7 +47,7 @@
     <div class="email">
       <label for="">Email Address <span>*</span> </label>
       <br>
-      <input type="text" placeholder=" Please enter a valid email address">
+      <input id="email" type="text" placeholder=" Please enter a valid email address">
     </div>
 
     <div class="radios">
@@ -56,7 +58,7 @@
           <input type="radio" id="radio1" name="estudios"> General Enquiry
         </div>
         <div class="radios__box">
-          <input type="radio" id="radio1" name="estudios"> Support Request
+          <input type="radio" id="radio2" name="estudios"> Support Request
         </div>
       </div>
       <!--  Please select a query type -->
@@ -64,7 +66,7 @@
     <br>
     <form class="form">
       <p>message <span>*</span></p>
-      <p><textarea id="curriculum" rows="10" cols="50"></textarea></p>
+      <p><textarea id="mensaje" rows="10" cols="50"></textarea></p>
       <input class="checkbox" type="checkbox" name="dddd"> I consent to being contacted by the team
       <p><input class="button" type="button" value="Mostrar" onClick="controlarCaracteres()"></p>
     </form>
@@ -82,5 +84,5 @@
   </div>
 
 </body>
-
+<script src="assets/js/script.js"></script>
 </html>
