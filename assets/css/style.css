@@ -104,6 +104,10 @@ textarea {
   color: var(--White);
 }
 
+.errores {
+  color: red;
+}
+
 @media screen and (max-width: 555px) {
   body {
     padding: 10px;
@@ -115,7 +119,7 @@ textarea {
     width: 100%;
   }
 
-  .names{
+  .names {
     width: 100%;
   }
   .name input {
